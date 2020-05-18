@@ -1,0 +1,10 @@
+﻿  WinMain.cpp
+c:\users\hhx\documents\vc++\projects\mfc_0224\win32project2\win32project2\winmain.cpp(49): warning C4244: “return”: 从“WPARAM”转换到“int”，可能丢失数据
+c:\users\hhx\documents\vc++\projects\mfc_0224\win32project2\win32project2\winmain.cpp(72): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+c:\users\hhx\documents\vc++\projects\mfc_0224\win32project2\win32project2\winmain.cpp(79): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+c:\users\hhx\documents\vc++\projects\mfc_0224\win32project2\win32project2\winmain.cpp(64): warning C4477: “sprintf_s”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“WPARAM”
+  c:\users\hhx\documents\vc++\projects\mfc_0224\win32project2\win32project2\winmain.cpp(64): note: 请考虑在格式字符串中使用“%lld”
+  c:\users\hhx\documents\vc++\projects\mfc_0224\win32project2\win32project2\winmain.cpp(64): note: 请考虑在格式字符串中使用“%Id”
+  c:\users\hhx\documents\vc++\projects\mfc_0224\win32project2\win32project2\winmain.cpp(64): note: 请考虑在格式字符串中使用“%I64d”
+  Win32Project2.vcxproj -> C:\Users\HHX\Documents\vc++\Projects\MFC_0224\Win32Project2\x64\Debug\Win32Project2.exe
+  Win32Project2.vcxproj -> C:\Users\HHX\Documents\vc++\Projects\MFC_0224\Win32Project2\x64\Debug\Win32Project2.pdb (Full PDB)

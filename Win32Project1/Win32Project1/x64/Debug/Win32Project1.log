@@ -1,0 +1,22 @@
+﻿  WinMain.cpp
+c:\users\hhx\documents\vc++\projects\mfc_0224\win32project1\win32project1\winmain.cpp(27): error C2440: “=”: 无法从“const char [11]”转换为“LPCWSTR”
+  c:\users\hhx\documents\vc++\projects\mfc_0224\win32project1\win32project1\winmain.cpp(27): note: 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+c:\users\hhx\documents\vc++\projects\mfc_0224\win32project1\win32project1\winmain.cpp(35): error C2664: “HWND CreateWindowExW(DWORD,LPCWSTR,LPCWSTR,DWORD,int,int,int,int,HWND,HMENU,HINSTANCE,LPVOID)”: 无法将参数 2 从“const char [11]”转换为“LPCWSTR”
+  c:\users\hhx\documents\vc++\projects\mfc_0224\win32project1\win32project1\winmain.cpp(35): note: 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+c:\users\hhx\documents\vc++\projects\mfc_0224\win32project1\win32project1\winmain.cpp(48): warning C4244: “return”: 从“WPARAM”转换到“int”，可能丢失数据
+c:\users\hhx\documents\vc++\projects\mfc_0224\win32project1\win32project1\winmain.cpp(64): error C2664: “int MessageBoxW(HWND,LPCWSTR,LPCWSTR,UINT)”: 无法将参数 2 从“char [20]”转换为“LPCWSTR”
+  c:\users\hhx\documents\vc++\projects\mfc_0224\win32project1\win32project1\winmain.cpp(64): note: 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+c:\users\hhx\documents\vc++\projects\mfc_0224\win32project1\win32project1\winmain.cpp(67): error C2664: “int MessageBoxW(HWND,LPCWSTR,LPCWSTR,UINT)”: 无法将参数 2 从“const char [14]”转换为“LPCWSTR”
+  c:\users\hhx\documents\vc++\projects\mfc_0224\win32project1\win32project1\winmain.cpp(67): note: 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+c:\users\hhx\documents\vc++\projects\mfc_0224\win32project1\win32project1\winmain.cpp(70): error C2664: “BOOL TextOutW(HDC,int,int,LPCWSTR,int)”: 无法将参数 4 从“const char [11]”转换为“LPCWSTR”
+  c:\users\hhx\documents\vc++\projects\mfc_0224\win32project1\win32project1\winmain.cpp(70): note: 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+c:\users\hhx\documents\vc++\projects\mfc_0224\win32project1\win32project1\winmain.cpp(77): error C2664: “BOOL TextOutW(HDC,int,int,LPCWSTR,int)”: 无法将参数 4 从“const char [22]”转换为“LPCWSTR”
+  c:\users\hhx\documents\vc++\projects\mfc_0224\win32project1\win32project1\winmain.cpp(77): note: 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+c:\users\hhx\documents\vc++\projects\mfc_0224\win32project1\win32project1\winmain.cpp(81): error C2664: “int MessageBoxW(HWND,LPCWSTR,LPCWSTR,UINT)”: 无法将参数 2 从“const char [15]”转换为“LPCWSTR”
+  c:\users\hhx\documents\vc++\projects\mfc_0224\win32project1\win32project1\winmain.cpp(81): note: 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+c:\users\hhx\documents\vc++\projects\mfc_0224\win32project1\win32project1\winmain.cpp(63): warning C4477: “sprintf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“WPARAM”
+  c:\users\hhx\documents\vc++\projects\mfc_0224\win32project1\win32project1\winmain.cpp(63): note: 请考虑在格式字符串中使用“%lld”
+  c:\users\hhx\documents\vc++\projects\mfc_0224\win32project1\win32project1\winmain.cpp(63): note: 请考虑在格式字符串中使用“%Id”
+  c:\users\hhx\documents\vc++\projects\mfc_0224\win32project1\win32project1\winmain.cpp(63): note: 请考虑在格式字符串中使用“%I64d”
+c:\users\hhx\documents\vc++\projects\mfc_0224\win32project1\win32project1\winmain.cpp(63): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1769): note: 参见“sprintf”的声明
